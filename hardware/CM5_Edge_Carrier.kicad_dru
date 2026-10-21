@@ -1,0 +1,11 @@
+(version 1)
+# Small SMD pads (0402, SOT-23, USB-C GND fingers) reach the GND pour with a single spoke;
+# electrically adequate and it keeps 0402s from tombstoning.
+(rule "small pad thermal spokes"
+  (constraint min_resolved_spokes 1))
+
+# JLCPCB 4-layer standard process floors (JLC04161H-3313)
+(rule "jlc via floor"
+  (condition "A.Type == 'Via'")
+  (constraint via_diameter (min 0.4mm))
+  (constraint hole_size (min 0.2mm)))

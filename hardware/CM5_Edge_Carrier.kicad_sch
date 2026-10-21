@@ -1,0 +1,978 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "77412fe8-cc96-5bac-864c-9fca324a699e")
+	(paper "A3")
+	(title_block
+		(title "CM5 Edge-Audio Carrier")
+		(date "2026-10-21")
+		(rev "1.0")
+		(company "Hector Jimenez")
+		(comment 1 "Raspberry Pi CM5 carrier for edge-AI audio")
+		(comment 2 "Sheet: Root")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 30.48 50.8)
+		(end 76.2 71.12)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill
+			(color 230 240 255 1)
+		)
+		(uuid "13fce5ad-7926-5e91-9cbf-1e88a13ecf9f")
+	)
+	(text
+		"USB-C PD IN"
+		(exclude_from_sim no)
+		(at 53.34 57.15 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+		)
+		(uuid "8eed0337-0ea5-56d8-9823-d1be4eaa74d9")
+	)
+	(text
+		"(CH224K, 12 V)"
+		(exclude_from_sim no)
+		(at 53.34 60.96 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "ccc82bbe-f67d-5e24-a22b-840eda672273")
+	)
+	(rectangle
+		(start 96.52 50.8)
+		(end 142.24 71.12)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill
+			(color 230 240 255 1)
+		)
+		(uuid "b72e3c25-a08c-5a4b-8a8d-67b833130e09")
+	)
+	(text
+		"5 V / 5 A BUCK"
+		(exclude_from_sim no)
+		(at 119.38 57.15 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+		)
+		(uuid "62b40cee-2ef4-5e69-9cce-2a14d0773b49")
+	)
+	(text
+		"(TPS565208)"
+		(exclude_from_sim no)
+		(at 119.38 60.96 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "ca6736c5-4961-5171-8ce6-81b4a471ce4b")
+	)
+	(rectangle
+		(start 162.56 50.8)
+		(end 208.28 71.12)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill
+			(color 230 240 255 1)
+		)
+		(uuid "241caf3c-2d97-5488-b659-ea48a27eb1f3")
+	)
+	(text
+		"3.3 V / 2 A BUCK"
+		(exclude_from_sim no)
+		(at 185.42 57.15 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+		)
+		(uuid "90a2a0e4-33ef-5d94-adab-a3f2f323e6ee")
+	)
+	(text
+		"(AP3441, M.2 rail)"
+		(exclude_from_sim no)
+		(at 185.42 60.96 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "8f507866-cfb1-5bf8-a2a6-459793376524")
+	)
+	(rectangle
+		(start 96.52 91.44)
+		(end 208.28 132.08)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill
+			(color 230 240 255 1)
+		)
+		(uuid "0179e1bb-6f54-5f7c-ae23-1b8440f33bce")
+	)
+	(text
+		"RASPBERRY PI CM5"
+		(exclude_from_sim no)
+		(at 152.4 97.79 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+		)
+		(uuid "fb216657-1ca3-526a-905f-1108345a47b1")
+	)
+	(text
+		"BCM2712, 4x A76"
+		(exclude_from_sim no)
+		(at 152.4 101.6 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "f9326488-b406-5120-8625-8073eced4e2f")
+	)
+	(text
+		"LPDDR4X, eMMC, GbE PHY"
+		(exclude_from_sim no)
+		(at 152.4 105.41 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "3c0d64a8-e6b4-5030-81af-ea369bd1abfe")
+	)
+	(rectangle
+		(start 228.6 91.44)
+		(end 279.4 109.22)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill
+			(color 230 240 255 1)
+		)
+		(uuid "04abc460-ecc6-55e0-8441-4c5284a67ad4")
+	)
+	(text
+		"M.2 KEY-M NVMe"
+		(exclude_from_sim no)
+		(at 254 97.79 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+		)
+		(uuid "d9dde780-427a-5773-b959-6da30fa671d2")
+	)
+	(text
+		"PCIe x1"
+		(exclude_from_sim no)
+		(at 254 101.6 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "a4766f9e-b330-587c-86c1-9f6e48baf400")
+	)
+	(rectangle
+		(start 228.6 114.3)
+		(end 279.4 132.08)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill
+			(color 230 240 255 1)
+		)
+		(uuid "f740f544-bc58-5746-903d-f4ebc7f577f4")
+	)
+	(text
+		"USB-A x2 (3.0 + 2.0)"
+		(exclude_from_sim no)
+		(at 254 120.65 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+		)
+		(uuid "77c5303f-3abf-58f2-a651-a0d51f83c165")
+	)
+	(text
+		"(1.5 A VBUS switch)"
+		(exclude_from_sim no)
+		(at 254 124.46 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "51c0f28d-e8bc-5b7b-adb3-2001e9f25cfa")
+	)
+	(rectangle
+		(start 30.48 91.44)
+		(end 81.28 109.22)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill
+			(color 230 240 255 1)
+		)
+		(uuid "ef580ecf-7bd5-5ac7-93db-b6e8a016d06f")
+	)
+	(text
+		"RJ45 GbE MagJack"
+		(exclude_from_sim no)
+		(at 55.88 97.79 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+		)
+		(uuid "723e4881-cf43-5ade-9793-bb1d88dbee63")
+	)
+	(text
+		"(+ESD)"
+		(exclude_from_sim no)
+		(at 55.88 101.6 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "f71aba26-6562-5f9b-b31e-a67da5c1b397")
+	)
+	(rectangle
+		(start 30.48 114.3)
+		(end 81.28 132.08)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill
+			(color 230 240 255 1)
+		)
+		(uuid "1085873c-ef97-527a-a8a7-8108fd891913")
+	)
+	(text
+		"USB-C SERVICE"
+		(exclude_from_sim no)
+		(at 55.88 120.65 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+		)
+		(uuid "aa7401e1-613b-529f-9402-7cd5e87432f7")
+	)
+	(text
+		"rpiboot / gadget"
+		(exclude_from_sim no)
+		(at 55.88 124.46 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "ee2431b6-53ee-5526-b04d-bb3c97380975")
+	)
+	(rectangle
+		(start 96.52 147.32)
+		(end 147.32 165.1)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill
+			(color 230 240 255 1)
+		)
+		(uuid "943251af-30b5-5159-900b-bdfa0b1fcc23")
+	)
+	(text
+		"MIC ARRAY HDR"
+		(exclude_from_sim no)
+		(at 121.92 153.67 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+		)
+		(uuid "97818fab-b85c-56aa-a65d-57c14e1a5961")
+	)
+	(text
+		"I2S + I2C + IRQ"
+		(exclude_from_sim no)
+		(at 121.92 157.48 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "040a48ea-90fc-5ef7-bf40-aaaae85d00cf")
+	)
+	(rectangle
+		(start 162.56 147.32)
+		(end 208.28 165.1)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill
+			(color 230 240 255 1)
+		)
+		(uuid "a145720b-3e28-5990-be90-ed0751f32f09")
+	)
+	(text
+		"QWIIC / UARTs"
+		(exclude_from_sim no)
+		(at 185.42 153.67 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+		)
+		(uuid "f3dcdfce-5ed4-5c6f-8f38-97aed59f1293")
+	)
+	(text
+		"DEBUG + BARCODE"
+		(exclude_from_sim no)
+		(at 185.42 157.48 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "f234faf5-bb95-5dfd-a93e-dfdd4268c7eb")
+	)
+	(rectangle
+		(start 228.6 147.32)
+		(end 279.4 165.1)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill
+			(color 230 240 255 1)
+		)
+		(uuid "4f3ff7b0-60c6-5105-89aa-ae5c0f2324ac")
+	)
+	(text
+		"FAN 4-pin"
+		(exclude_from_sim no)
+		(at 254 153.67 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+		)
+		(uuid "1949b82a-a4c3-5308-8a05-d3f739f71be4")
+	)
+	(text
+		"PWM + TACH"
+		(exclude_from_sim no)
+		(at 254 157.48 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "40aa8f44-7261-51f3-b56f-c4364a084aef")
+	)
+	(polyline
+		(pts
+			(xy 76.2 60.96)
+			(xy 96.52 60.96)
+		)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "95038b55-2d79-5c2a-861d-2fd8b936676d")
+	)
+	(polyline
+		(pts
+			(xy 142.24 60.96)
+			(xy 162.56 60.96)
+		)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "1aab1da1-f886-59b7-b561-45628166382c")
+	)
+	(polyline
+		(pts
+			(xy 119.38 71.12)
+			(xy 119.38 91.44)
+		)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "d4f4e13a-c0b0-5afa-9015-6b1d78d91b72")
+	)
+	(polyline
+		(pts
+			(xy 185.42 71.12)
+			(xy 185.42 91.44)
+		)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f094c15d-0ea9-50e0-a353-e36b2fa5559a")
+	)
+	(polyline
+		(pts
+			(xy 185.42 91.44)
+			(xy 228.6 100.33)
+		)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0557a312-0042-5403-b2db-7a296acd2dd6")
+	)
+	(polyline
+		(pts
+			(xy 208.28 100.33)
+			(xy 228.6 100.33)
+		)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "3cc92eae-36bc-5a5c-8e14-5c6f928d18d7")
+	)
+	(polyline
+		(pts
+			(xy 208.28 123.19)
+			(xy 228.6 123.19)
+		)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ed7870e2-c928-5b15-83bc-56cbdc573888")
+	)
+	(polyline
+		(pts
+			(xy 96.52 100.33)
+			(xy 81.28 100.33)
+		)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "64f5aabb-c9c8-5f38-aca0-6244feb2f5da")
+	)
+	(polyline
+		(pts
+			(xy 96.52 123.19)
+			(xy 81.28 123.19)
+		)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c65a7f3d-5693-579f-8543-47ef6165dcf0")
+	)
+	(polyline
+		(pts
+			(xy 121.92 132.08)
+			(xy 121.92 147.32)
+		)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "341f35e2-8a73-55eb-a771-56e818fa2386")
+	)
+	(polyline
+		(pts
+			(xy 185.42 132.08)
+			(xy 185.42 147.32)
+		)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "21701fb6-d01f-5f27-8181-f6005c137591")
+	)
+	(polyline
+		(pts
+			(xy 203.2 132.08)
+			(xy 254 147.32)
+		)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "dd6494f9-26ce-570b-8bde-c435b88621ea")
+	)
+	(sheet
+		(at 304.8 50.8)
+		(size 63.5 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 225 1)
+		)
+		(uuid "4e00e5ef-8523-5c3b-9b45-c533b798e883")
+		(property
+			"Sheetname"
+			"Power"
+			(at 304.8 49.53 0)
+			(effects
+				(font
+					(size 1.6 1.6)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property
+			"Sheetfile"
+			"power.kicad_sch"
+			(at 304.8 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project
+				"CM5_Edge_Carrier"
+				(path
+					"/77412fe8-cc96-5bac-864c-9fca324a699e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 304.8 81.28)
+		(size 63.5 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 225 1)
+		)
+		(uuid "1db506f3-36ab-55c3-971f-551dd1a1ac5e")
+		(property
+			"Sheetname"
+			"Compute"
+			(at 304.8 80.01 0)
+			(effects
+				(font
+					(size 1.6 1.6)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property
+			"Sheetfile"
+			"compute.kicad_sch"
+			(at 304.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project
+				"CM5_Edge_Carrier"
+				(path
+					"/77412fe8-cc96-5bac-864c-9fca324a699e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 304.8 111.76)
+		(size 63.5 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 225 1)
+		)
+		(uuid "e804d135-4180-5b5b-a090-4c9ee07a6fe7")
+		(property
+			"Sheetname"
+			"HighSpeed"
+			(at 304.8 110.49 0)
+			(effects
+				(font
+					(size 1.6 1.6)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property
+			"Sheetfile"
+			"highspeed.kicad_sch"
+			(at 304.8 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project
+				"CM5_Edge_Carrier"
+				(path
+					"/77412fe8-cc96-5bac-864c-9fca324a699e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 304.8 142.24)
+		(size 63.5 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 225 1)
+		)
+		(uuid "f1a1655a-104d-514b-9024-af9b70527b05")
+		(property
+			"Sheetname"
+			"PeriphIO"
+			(at 304.8 140.97 0)
+			(effects
+				(font
+					(size 1.6 1.6)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property
+			"Sheetfile"
+			"periph_io.kicad_sch"
+			(at 304.8 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project
+				"CM5_Edge_Carrier"
+				(path
+					"/77412fe8-cc96-5bac-864c-9fca324a699e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(text
+		"CM5 Edge-Audio Carrier  -  System Block Diagram"
+		(exclude_from_sim no)
+		(at 25.4 30.48 0)
+		(effects
+			(font
+				(size 3 3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "390c8ad0-7268-57ae-a4f0-f47049487f1e")
+	)
+	(text
+		"DESIGN NOTES"
+		(exclude_from_sim no)
+		(at 25.4 190.5 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b8e77a1-be92-50de-80e7-7382a594b0b4")
+	)
+	(text
+		"1. Input: USB-C PD sink requests 12 V / 3 A (36 W). Buck EN divider (100k/15k) holds the 5 V rail off below ~9 V,"
+		(exclude_from_sim no)
+		(at 25.4 195.58 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2fe9690-e897-56a6-b490-8131b4dee938")
+	)
+	(text
+		"   so a non-PD 5 V source can never back-feed the CM5 at low voltage."
+		(exclude_from_sim no)
+		(at 25.4 200.66 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "877c88e4-6c93-5014-bd15-866c038bdf19")
+	)
+	(text
+		"2. CM5 CC1/CC2 left open: set usb_max_current_enable=1 in config.txt to allow 1.6 A on the USB-A ports."
+		(exclude_from_sim no)
+		(at 25.4 205.74 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a534242-c76c-5719-8524-40dc8cdf7978")
+	)
+	(text
+		"3. PCIe x1 (Gen2 default, Gen3 via dtparam=pciex1_gen=3): 85 ohm diff, length-matched P/N within 0.1 mm."
+		(exclude_from_sim no)
+		(at 25.4 210.82 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "6dd8fedc-cff7-541c-9af3-7e5783f466cb")
+	)
+	(text
+		"   TX AC-coupling capacitors are on the CM5; RX caps are on the NVMe module."
+		(exclude_from_sim no)
+		(at 25.4 215.9 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7d97e22-9c9d-51c8-820b-069767f20502")
+	)
+	(text
+		"4. USB 3.0 SuperSpeed: 90 ohm diff; GbE MDI: 100 ohm diff; all on L1 referenced to solid GND on L2."
+		(exclude_from_sim no)
+		(at 25.4 220.98 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "188d9ef1-c680-53ac-9448-cf96164b5470")
+	)
+	(text
+		"5. ESD: TPD4EUSB30 on every GbE pair, USBLC6-2 on service USB-C, SMAJ15A on VBUS (USB-A per RPi reference)."
+		(exclude_from_sim no)
+		(at 25.4 226.06 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "e882ab2f-68ba-5116-b97e-d19aa74deabc")
+	)
+	(text
+		"6. Stackup: JLCPCB JLC04161H-7628, 1.6 mm, L1 SIG / L2 GND / L3 PWR (+5V, +3V3_M2) / L4 SIG."
+		(exclude_from_sim no)
+		(at 25.4 231.14 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b191fd5-b7d9-5782-931d-1b1b4794b51d")
+	)
+	(text
+		"7. Boot: hold nRPIBOOT while plugging USB-C SERVICE into a host to flash eMMC with rpiboot."
+		(exclude_from_sim no)
+		(at 25.4 236.22 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "fad25a6f-7e60-5ee5-b7d3-82613a504a02")
+	)
+	(text
+		"Hierarchical sheets"
+		(exclude_from_sim no)
+		(at 304.8 40.64 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "ceea0296-c586-55e1-aed3-2c5475d0ca5a")
+	)
+	(text
+		"Power: USB-C PD Input, 5 V and 3.3 V Bucks"
+		(exclude_from_sim no)
+		(at 304.8 69.85 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa162232-ef16-51fe-a7b4-2b72de9ebd48")
+	)
+	(text
+		"Raspberry Pi Compute Module 5"
+		(exclude_from_sim no)
+		(at 304.8 100.33 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e882325-b43a-5d67-b840-94900f8c5860")
+	)
+	(text
+		"High-Speed IO: PCIe NVMe, USB 3.0, GbE, USB-C Service"
+		(exclude_from_sim no)
+		(at 304.8 130.81 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "3dd729b0-8b98-5f9d-ac83-624ab9f772a2")
+	)
+	(text
+		"Peripheral IO: Mic-Array I2S, UARTs, I2C, Fan"
+		(exclude_from_sim no)
+		(at 304.8 161.29 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "fbeabbb1-a4a3-5412-a7e7-797a17a862de")
+	)
+	(sheet_instances
+		(path
+			"/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

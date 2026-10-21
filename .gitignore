@@ -1,0 +1,12 @@
+# build products and third-party clones
+build/
+ref/
+__pycache__/
+*.pyc
+.DS_Store
+# KiCad local state
+*.kicad_prl
+*-backups/
+fp-info-cache
+*.lck
+hardware/CM5_Edge_Carrier.net
